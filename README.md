@@ -5,7 +5,7 @@ A package for processing and building html markup, attributes and styles.
 You can install the package:
 
 ```bash
-composer require bu0nq/plugin-html
+composer require bu0nq/html
 ```
 
 Or you could directly reference it into your `composer.json` file as a dependency
@@ -16,4 +16,11 @@ Or you could directly reference it into your `composer.json` file as a dependenc
         "bu0nq/html": "^1.0"
     }
 }
+```
+
+```json
+{
+    "type": "vcs",
+    "url": "https://github.com/bu0nq/html"
+},
 ```
