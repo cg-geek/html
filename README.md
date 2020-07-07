@@ -84,10 +84,6 @@ Scheme
 ```php
 HtmlKernel::tag(
     string $name, int $type
-) : object ->attribute(
-    string $name, array|string $content
-) : object ->style(
-    string $name, array|string $content
 ) : object ->get(
     bool $filled = true
 ) : string;
