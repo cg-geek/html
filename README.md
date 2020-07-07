@@ -187,7 +187,7 @@ HtmlPlugin::tag(
 ) : string;
 ```
 
-## Extension
+## Extensions
 
 ### Laravel
 Please see [bu0nq/html-laravel](https://github.com/bu0nq/html-laravel)
