@@ -35,14 +35,21 @@ use Atom\Html\HtmlKernel;
 ```php
 HtmlKernel::attribute('id', 'one | two')->attribute('class', ['one', 'two'])->get();
 ```
-Method
-```php
-HtmlKernel::attribute(string $name, array|string $content) : object
-```
 Result
 ```html
 id="one two" class="one two"
 ```
+Method
+```php
+HtmlKernel::attribute(
+    string $name, array|string $content
+) : object ->get(
+    bool $filled = true, bool $indent = false
+);
+```
+$filled - checking for attribute value
+$indent - indent before attribute
+
 ## Examples of HtmlPlugin
 
 ```php
