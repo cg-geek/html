@@ -30,3 +30,9 @@ or from the repository
 ```php
 use Atom\Html\HtmlKernel;
 ```
+
+## Examples of HtmlPlugin
+
+```php
+use Atom\Html\HtmlPlugin;
+```
