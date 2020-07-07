@@ -17,9 +17,7 @@ Or you could directly reference it into your `composer.json` file as a dependenc
     }
 }
 ```
-
 or
-
 ```json
 {
     "type": "vcs",
