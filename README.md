@@ -31,6 +31,14 @@ or from the repository
 use Atom\Html\HtmlKernel;
 ```
 
+### Attribute
+```php
+HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 'two'])->get();
+```
+```blade
+@HtmlKernel::attribute(string $name, array|string $content): object
+```
+
 ## Examples of HtmlPlugin
 
 ```php
