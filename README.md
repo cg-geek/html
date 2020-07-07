@@ -45,7 +45,7 @@ HtmlKernel::attribute(
     string $name, array|string $content
 ) : object ->get(
     bool $filled = true, bool $indent = false
-);
+) : string;
 ```
 
 ### Style
@@ -62,7 +62,7 @@ HtmlKernel::style(
     string $name, array|string $content
 ) : object ->get(
     bool $filled = true, bool $indent = false, bool $layout = false
-);
+) : string;
 ```
 
 ## Examples of HtmlPlugin
