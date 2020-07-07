@@ -37,7 +37,7 @@ HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 't
 ```
 Method
 ```blade
-@attribute(string $name, array|string $content) : object
+HtmlKernel::attribute(string $name, array|string $content) : object
 ```
 
 ## Examples of HtmlPlugin
