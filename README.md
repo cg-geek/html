@@ -94,3 +94,37 @@ HtmlKernel::tag(
 ```php
 use Atom\Html\HtmlPlugin;
 ```
+
+### Attribute
+```php
+HtmlPlugin::attribute('id', 'one | two');
+```
+Output
+```html
+id="one two" class="one two"
+```
+Scheme
+```php
+HtmlPlugin::attribute(
+    string $name, array|string $content, array $setting = [
+        bool $filled = true, bool $indent = false
+    ]
+) : string;
+```
+
+### Attributes
+```php
+HtmlPlugin::attributes(['id' => 'one | two', 'class' => ['one', 'two']]);
+```
+Output
+```html
+id="one two" class="one two"
+```
+Scheme
+```php
+HtmlPlugin::attributes(
+    array $items, array $setting = [
+        bool $filled = true, bool $indent = false
+    ]
+) : string;
+```
