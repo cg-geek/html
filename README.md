@@ -39,7 +39,7 @@ Output
 ```html
 id="one two" class="one two"
 ```
-Method
+Scheme
 ```php
 HtmlKernel::attribute(
     string $name, array|string $content
@@ -56,7 +56,7 @@ Output
 ```html
 style="background: black; font-size: 12px;"
 ```
-Method
+Scheme
 ```php
 HtmlKernel::style(
     string $name, array|string $content
