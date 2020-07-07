@@ -135,7 +135,7 @@ HtmlPlugin::style('background', 'black');
 ```
 Output
 ```html
-style="background: black"
+background: black;
 ```
 Scheme
 ```php
