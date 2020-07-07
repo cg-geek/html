@@ -162,3 +162,27 @@ HtmlPlugin::styles(
     ]
 ) : string;
 ```
+
+### Tag
+Opening tag
+```php
+HtmlPlugin::tag('div', 0, ['id' => 'one | two'], ['background' => 'black']);
+```
+Closing tag
+```php
+HtmlPlugin::tag('div', 1);
+```
+Output
+```html
+<div class="one two" style="background: black;">
+
+</div>
+```
+Scheme
+```php
+HtmlPlugin::tag(
+    string $name, int $type, array $attributes, array $style, array $setting = [
+        bool $filled = true
+    ]
+) : string;
+```
