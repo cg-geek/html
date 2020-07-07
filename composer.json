@@ -1,0 +1,31 @@
+{
+    "name": "bu0nq/html",
+    "description": "",
+    "homepage": "https://github.com/bu0nq/html",
+    "keywords": [
+        "atom", "php", "html"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BU0NQ", "email": "hello@bu0nq.ru", "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atom\\Html\\": "src/Html/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
