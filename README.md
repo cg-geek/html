@@ -186,3 +186,10 @@ HtmlPlugin::tag(
     ]
 ) : string;
 ```
+
+## Requirements
+* PHP: ^7.2.5
+* bu0nq/util: ^1.0
+
+## License
+The MIT License (MIT). Please see [License](https://github.com/bu0nq/html/blob/master/LICENSE) File for more information.
