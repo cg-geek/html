@@ -1,5 +1,6 @@
 # Html
-____
+A package for processing and building html markup, attributes and styles.
+
 ## Installation
 You can install the package via composer:
 
