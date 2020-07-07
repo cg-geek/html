@@ -128,3 +128,37 @@ HtmlPlugin::attributes(
     ]
 ) : string;
 ```
+
+### Style
+```php
+HtmlPlugin::style('background', 'black');
+```
+Output
+```html
+style="background: black"
+```
+Scheme
+```php
+HtmlPlugin::style(
+    string $name, array|string $content, array $setting = [
+        bool $filled = true, bool $indent = false, bool $layout = false
+    ]
+) : string;
+```
+
+### Styles
+```php
+HtmlPlugin::styles(['background' => 'black', 'font-size' => ['12px']]);
+```
+Output
+```html
+style="background: black; font-size: 12px;"
+```
+Scheme
+```php
+HtmlPlugin::styles(
+    array $items, array $setting = [
+        bool $filled = true, bool $indent = false, bool $layout = true
+    ]
+) : string;
+```
