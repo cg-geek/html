@@ -35,7 +35,7 @@ use Atom\Html\HtmlKernel;
 ```php
 HtmlKernel::attribute('id', 'one | two')->attribute('class', ['one', 'two'])->get();
 ```
-Result
+Output
 ```html
 id="one two" class="one two"
 ```
@@ -47,8 +47,23 @@ HtmlKernel::attribute(
     bool $filled = true, bool $indent = false
 );
 ```
-* $filled - checking for attribute value
-* $indent - indent before attribute
+
+### Style
+```php
+HtmlKernel::style('background', 'black')->style('font-size', ['12px'])->get();
+```
+Output
+```html
+style="background: black; font-size: 12px;"
+```
+Method
+```php
+HtmlKernel::style(
+    string $name, array|string $content
+) : object ->get(
+    bool $filled = true, bool $indent = false, bool $layout = false
+);
+```
 
 ## Examples of HtmlPlugin
 
