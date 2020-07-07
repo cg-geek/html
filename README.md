@@ -35,7 +35,7 @@ use Atom\Html\HtmlKernel;
 ```php
 HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 'two'])->get();
 ```
-```php
+```xml
 function @attribute(string $name, array|string $content): object
 ```
 
