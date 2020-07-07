@@ -33,13 +33,16 @@ use Atom\Html\HtmlKernel;
 
 ### Attribute
 ```php
-HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 'two']);
+HtmlKernel::attribute('id', 'one | two')->attribute('class', ['one', 'two'])->get();
 ```
 Method
 ```php
-HtmlKernel::attribute((string) $name, (array|string) $content) : object
+HtmlKernel::attribute(string $name, array|string $content) : object
 ```
-
+Result
+```html
+id="one two" class="one two"
+```
 ## Examples of HtmlPlugin
 
 ```php
