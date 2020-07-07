@@ -47,8 +47,8 @@ HtmlKernel::attribute(
     bool $filled = true, bool $indent = false
 );
 ```
-$filled - checking for attribute value
-$indent - indent before attribute
+* $filled - checking for attribute value
+* $indent - indent before attribute
 
 ## Examples of HtmlPlugin
 
