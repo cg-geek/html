@@ -65,6 +65,34 @@ HtmlKernel::style(
 ) : string;
 ```
 
+### Tag
+Opening tag
+```php
+HtmlKernel::tag('div', 0)->attribute('class', ['one', 'two'])->style('background', ['black'])->get();
+```
+Closing tag
+```php
+HtmlKernel::tag('div', 1)->get();
+```
+Output
+```html
+<div class="one two" style="background: black;">
+
+</div>
+```
+Scheme
+```php
+HtmlKernel::tag(
+    string $name, int $type
+) : object ->attribute(
+    string $name, array|string $content
+) : object ->style(
+    string $name, array|string $content
+) : object ->get(
+    bool $filled = true
+) : string;
+```
+
 ## Examples of HtmlPlugin
 
 ```php
