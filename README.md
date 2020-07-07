@@ -8,7 +8,7 @@ You can install the package:
 composer require bu0nq/html
 ```
 
-Or you could directly reference it into your `composer.json` file as a dependency
+or include the dependency in the composer.json file:
 
 ```json
 {
@@ -186,6 +186,10 @@ HtmlPlugin::tag(
     ]
 ) : string;
 ```
+
+## Integration
+* Laravel
+Please see [bu0nq/html-laravel](https://github.com/bu0nq/html-laravel)
 
 ## Requirements
 * PHP: ^7.2.5
