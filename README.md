@@ -166,7 +166,7 @@ HtmlPlugin::styles(
 ### Tag
 Opening tag
 ```php
-HtmlPlugin::tag('div', 0, ['id' => 'one | two'], ['background' => 'black']);
+HtmlPlugin::tag('div', 0, ['class' => 'one | two'], ['background' => 'black']);
 ```
 Closing tag
 ```php
