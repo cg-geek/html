@@ -35,8 +35,8 @@ use Atom\Html\HtmlKernel;
 ```php
 HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 'two'])->get();
 ```
-```xml
-function @attribute(string $name, array|string $content): object
+```blade
+@attribute(string $name, array|string $content): object
 ```
 
 ## Examples of HtmlPlugin
