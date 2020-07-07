@@ -24,3 +24,9 @@ or from the repository
     "url": "https://github.com/bu0nq/html"
 }
 ```
+
+## Examples of HtmlKernel
+
+```php
+use Atom\Html\HtmlKernel;
+```
