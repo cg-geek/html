@@ -36,7 +36,7 @@ use Atom\Html\HtmlKernel;
 HtmlKernel::attribute('id', 'one' || 'one | two')->attribute('class', ['one', 'two']);
 ```
 Method
-```scss
+```php
 HtmlKernel::attribute(string $name, array|string $content) : object
 ```
 
