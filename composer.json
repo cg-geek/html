@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "bu0nq/util": "^1.0"
     },
     "autoload": {
